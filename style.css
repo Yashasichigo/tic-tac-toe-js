@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+
+header, footer {
+    text-align: center;
+    color: crimson;
+    font-family: 'Pacifico', cursive;
+    padding: 20px;
+    background-color: rgb(192, 231, 247);
+}
+
+aside {
+    background-color: rgb(10, 99, 134);
+}
+
+#fpn, #spn {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    text-align: center ;
+    color: rgb(2, 1, 29);
+    background-color: rgb(192, 231, 247);
+}
+
+.game--container {
+    display: grid ;
+    grid-template-columns: repeat(3, auto) ;
+    width: 306px ;
+    margin: 50px auto ;
+}
+
+.cell {
+    font-family: "Permanent Marker" , cursive ;
+    width: 100px ;
+    height: 100px ;
+    box-shadow: 0 0 0 1px #01363fb4 ;
+    border: 2px solid #047496 ;
+    cursor : pointer ;
+    line-height: 100px ;
+    font-size: 60px ;
+}
+
+.game--restart {
+    width: 200px;
+    height: 50px;
+    background-color: wheat;
+    border: 2px solid #69cceb;
+    box-shadow: 1px 1px 1px 1px #087285b4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: rgb(7, 8, 65);
+}
+
+.reset--sb {
+    width: 200px;
+    height: 50px;
+    background-color: wheat;
+    border: 2px solid #69cceb;
+    box-shadow: 1px 1px 1px 1px #087285b4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: rgb(7, 8, 65);
+}
+
+.score--board {
+    display: grid ;
+    grid-template-columns: repeat(2,auto) ;
+    width: 306px ;
+    margin: 50px auto;
+}
+
+table {
+    width: 306px ;
+    border: 1px solid rgb(3, 94, 38);
+    margin: 50px auto ;
+}
+
+th, td {
+    padding: 7px ;
+}
+
+th {
+    text-transform: uppercase ;
+    text-align: center ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 80% ;
+    border-bottom: 2px solid rgb(3, 94, 38);
+}
+
+td {
+    text-align: center ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 80% ;
+}
+
+#startButton {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+#Player1, #Player2 {
+    width: 250px;
+    height: 40px;
+    font-size: 100%;
+    font-weight: bolder;
+    border-color: white;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
